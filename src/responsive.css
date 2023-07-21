@@ -1,0 +1,361 @@
+@media screen and (max-width: 750px) {
+    /* body {
+        background-color: pink;
+    } */
+
+    .TopTitle {
+        position: relative;
+        right: 150px;
+    }
+
+    .paddingSmall {
+        position: relative;
+        top: 10px;
+    }
+
+    .navbar {
+        width: 100vw;
+    }
+
+    .head .heading {
+        display: none;
+    }
+
+    header .icon {
+        display: none;
+    }
+
+    header .flex {
+        display: none;
+    }
+
+    .barIcon {
+        display: block;
+        position: absolute;
+        bottom: 65px;
+        right: 100px;
+    }
+
+    .navbar li {
+        position: relative;
+        bottom: 140px;
+        height: 0px;
+    }
+
+    header .navbar {
+        position: absolute;
+        display: block;
+
+    }
+
+    header ul li {
+        margin-bottom: 20px;
+    }
+
+
+
+    .Main {
+        height: 100vh;
+        width: 100vw;
+        /* display: flex;
+        flex-direction: column;
+        align-items: center; */
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+    }
+
+    #SweetHome {
+        height: 100vh;
+        width: 98vw;
+    }
+
+    .NewsPage {
+        height: 50%;
+        width: 95%;
+        padding: 10px 8px;
+        grid-area: 1/1/5/7;
+        /* align-self: first baseline; */
+    }
+
+    .articuno {
+        /* height: 38%; */
+        width: 99%;
+    }
+
+    .sideNews {
+        height: 50%;
+        width: 100%;
+        grid-area: 6/1/8/7;
+    }
+
+    .Richu {
+        position: relative;
+        /* top: 1461px; */
+    }
+
+    .side-cont {
+        width: 65%;
+    }
+
+    .sstcont {
+        width: 80%;
+    }
+
+    .repic {
+        min-width: 36%;
+        min-height: 95%;
+        max-width: 30%;
+        max-height: 95%;
+        margin-right: 10px;
+    }
+
+    .pikachu {
+        width: 96%;
+    }
+
+    .St-cont {
+        width: 98%;
+    }
+
+    /* Clickpage */
+
+    #LeadT {
+        width: 70%;
+    }
+
+    #LeadD {
+        width: 70%;
+    }
+
+    #LeadC {
+        width: 70%;
+    }
+
+    #LeadP {
+        position: relative;
+        right: 12%;
+    }
+
+    .shareLeft {
+        position: fixed;
+        top: 600px;
+    }
+
+    .BacktoHome {
+        position: relative;
+        left: 27%;
+        /* color: paleturquoise; */
+    }
+
+    .giver {
+        position: relative;
+        right: 12%;
+    }
+
+    .homi {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .Boxxer {
+        width: 100%;
+        align-items: center;
+    }
+
+    .ReDown {
+        width: 100%;
+    }
+
+    .text-wid {
+        width: 65%;
+    }
+
+    .lp {
+        width: 97%;
+    }
+
+    .llp {
+        width: 70vw;
+    }
+
+    /* Home Page */
+
+    /* .Topper{ */
+    /* display: grid; */
+    /* grid-template-columns: repeat(5, 1fr); */
+    /* }  */
+    #TopLeft {
+        grid-area: 1/1/3/5;
+    }
+
+    .RightSideSet {
+        grid-area: 2/1/5/5;
+        display: grid;
+        grid-template-columns: repeat(7, 1fr);
+        grid-gap: 1rem;
+        position: relative;
+        top: 55px;
+        left: 10px;
+    }
+
+    #TopRight {
+        grid-area: 1/1/3/7;
+    }
+
+    .letfull {
+        position: relative;
+        bottom: 43%;
+        width: 124%;
+    }
+
+    .topRight {
+        color: yellow;
+        position: relative;
+        bottom: 75%;
+        /* left: 90px; */
+        text-align: center;
+        width: 168%;
+    }
+
+    .bottomright {
+        color: yellow;
+        position: relative;
+        bottom: 80%;
+        width: 145%;
+        text-align: center;
+    }
+
+    #BottomRight {
+        grid-area: 2/1/7/7;
+        position: relative;
+        top: 68px;
+        /* left: 10px; */
+    }
+
+
+    .Topver {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        gap: 1rem;
+    }
+
+    .topImg {
+        height: 18vh;
+        width: 80vw;
+    }
+
+    .sideTopImg {
+        height: 18vh;
+        width: 77vw;
+    }
+
+    .sideImg {
+        height: 18vh;
+        width: 77vw;
+    }
+
+    /* Latest Wala Page */
+    .UpSide {
+        position: relative;
+        top: 135px;
+    }
+
+    .gasli {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .Top-let {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 95%;
+    }
+
+
+    .mg {
+        min-width: 90%;
+        min-height: 50%;
+        max-width: 90%;
+        max-height: 50%;
+    }
+
+    .const {
+        width: 90%;
+        padding: 0px 50px;
+    }
+
+    /* MidPart or side by sid wala */
+    .midpart {
+        display: flex;
+        flex-direction: column;
+        padding: 12px 20px;
+        position: relative;
+        top: 110px;
+    }
+
+    .mainFirst {
+        width: 99%;
+    }
+
+    .BigigImg {
+        display: none;
+    }
+
+    .AD {
+        display: none;
+    }
+
+    .rightSide {
+        width: 100%;
+    }
+
+    /*Latest Storis  */
+    .DownSide {
+        position: relative;
+        top: 1263px;
+    }
+}
+
+/*  */
+
+@media screen and (min-width: 350px) and (max-width: 460px) {
+   
+
+    .TopTitle {
+        
+        position: relative;
+        right: 120px;
+    }
+    .barIcon{
+        right: 30px;
+    }
+    .mainFirst{
+        height: 15%;
+    }
+    .lp{
+        width: 105%;
+    }
+    .llp{
+        width: 77vw;
+    }
+}
+
+@media screen and (orientation: landscape) {
+    
+    .mainFirst{
+        height: 15%;
+    }
+    .sistum{
+        width: 80vw;
+    }
+    /* .lp{
+        width: 70vw;
+    } */
+   
+    
+}

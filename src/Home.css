@@ -1,0 +1,239 @@
+#SweetHome{
+    height: 100vh;
+    width: 98vw;
+}
+.Topver{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    width: 90%;
+    height: 470px;
+    /* border: 1px solid hotpink; */
+}
+.Topper{
+    padding: 12px 23px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.RightSideSet{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    height: 100%;
+    width: 40%;
+    padding: 12px 3px;
+}
+
+#TopLeft{
+    height: 98%;
+    width: 60%;
+    /* border: 1px solid purple; */
+}
+#TopRight{
+    height: 48%;
+    /* border: 1px solid blue; */
+}
+#BottomRight{
+    height: 48%;
+    /* height: 45%; */
+    /* border: 1px solid green; */
+}
+.topImg{
+    height: 100%;
+    width: 100%;
+    border-radius: 12px;
+}
+.sideTopImg{
+    border-radius: 12px;
+    display: block;
+    height: 100%;
+    width: 100%;
+}
+.letfull{
+    color: yellow;
+    position: relative;
+    bottom: 110px;
+    text-align: center;
+    left: 86px;
+    /* width: 140%; */
+}
+.topRight{
+    color: yellow;
+    position: relative;
+    bottom: 150px;
+    /* left: 90px; */
+    text-align: center;
+}
+.bottomright{
+    color: yellow;
+    position: relative;
+    bottom: 150px;
+    text-align: center;
+}
+.sideImg{
+    border-radius: 12px;
+    display: block;
+    height: 100%;
+    width: 100%;
+}
+.lM{
+    cursor: pointer;
+}
+.midpart{
+    display: flex;
+    justify-content: space-between;
+    /* width: 100%; */
+    padding: 12px 10px;
+}
+.mainFirst{
+    display: flex;
+    padding: 12px 3px;
+    margin: 5px;
+    height: 25vh;
+    border-bottom: 1px solid red;
+    width: 63vw;
+}
+.mmypic{
+    min-width: 23%;
+    max-width: 30%;
+    min-height: 18%;
+    margin-right: 20px;
+}
+.myhr{
+    width: 99%;
+    position: relative;
+    right: 0%;
+}
+
+/* ReTop */
+.firstPage{
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid red;
+    
+}
+
+.hunter{
+    height: 55vh;
+}
+.rightSide{
+    width: 30vw;
+    display: flex;
+    justify-content: center;
+    height: 80%;
+}
+.side-diff{
+    width: 87%;
+}
+/* .side-maitain{
+    width: 23vw;
+} */
+
+/* Latest Story */
+.DownSide{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    position: relative;
+    top: 25px;
+    /* border: 1px solid palegreen; */
+    padding: 6px 12px;
+    margin: 0px 12px;
+
+}
+.gasli{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    /* padding: 0px 3%; */
+}
+.kasama{
+    border-right: 5px solid pink;
+}
+/* .rechar{
+    background-color: hotpink;
+    height: 8px;
+    position: relative;
+    transform: rotate(90deg);
+    left: 201px;
+} */
+.side-box{
+    align-items: center;
+    margin: 0px 12px;
+    padding: 0px 3px;
+    width: 85%;
+}
+.shiro{
+    height: 5px;
+    background-color: purple;
+    width: 100%;
+    /* cursor: pointer; */
+}
+
+/* The latest */
+
+.const{
+    width: 87%;
+    padding: 0px 12px;
+}
+.UpSide{
+    padding: 3px 26px;
+}
+.gasli{
+    justify-content: center;
+}
+.Top-let{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    padding: 12px 12px;
+}
+.mid-content{
+    display: flex;
+    /* flex-direction: column; */
+}
+.mg{
+    position: relative;
+    left: 40px;
+    min-width: 53%;
+    min-height: 38%;
+    max-width: 53%;
+    max-height: 38%;
+    margin-right: 20px;
+}
+/* Home pe Big Image */
+
+#bigImg{
+    display: block;
+    height: 100%;
+    width: 60vw;
+    border: 1px solid mediumseagreen;
+}
+.BigigImg{
+    display: flex;
+    justify-content: center;
+    height: 37.3vw;
+    width: 60vw;
+    padding: 12px 23px;
+    /* border: 2px solid red; */
+}
+.Bimg{
+    padding: 12px 23px;
+}
+.ADD{
+    border: 3px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30%;
+    width: 65%;
+}
+.myad{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+}

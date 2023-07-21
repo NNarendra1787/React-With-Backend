@@ -1,0 +1,354 @@
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&family=Great+Vibes&family=Rajdhani&display=swap');
+*{
+  /* margin: 0; */
+  padding: 0;
+}
+/* h1{ */
+  /* border-bottom: 3px solid palegreen; */
+/* } */
+body{
+  font-family: 'Rajdhani', sans-serif
+}
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* My Code Start */
+
+.TopTitle{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.horezan{
+  font-size: 2.5rem;
+  text-align: center;
+}
+.ver{
+  color: red;
+  font-size: 1.6rem;
+  font-weight: lighter;
+  margin-right: 5px;
+  transform: rotate(270deg);
+}
+
+.Navbar{
+  display: flex;
+  justify-content: space-around;
+  /* padding: 0px 12px; */
+}
+#NavHr{
+  width: 99%;
+}
+#myLinks{
+  font-size: 1.1rem;
+  text-decoration: none;
+}
+#myLinks:hover{
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+/* Navbar */
+
+header li{
+  display: flex;
+  justify-content: space-around;
+  transition: 0.5s;
+}
+.flex{
+  display: flex;
+  justify-content: space-around;
+}
+.barIcon{
+  font-size: 25px;
+  background: none;
+  color: rebeccapurple;
+  display: none;
+  border: none;
+}
+
+/* Openpage */
+.Main{
+  display: flex;
+  justify-content: space-around;
+  padding: 12px 2%;
+  height: 100vh;
+  /* width: 100%; */
+}
+/* OpenPage */
+.NewsPage{
+  width: 70%;
+  height: 100%;
+  /* border: 2px solid rebeccapurple; */
+}
+.articuno{
+  display: flex;
+  padding: 12px 3px;
+  /* height: ; */
+  width: 62vw;
+  border-bottom: 1px solid red;
+}
+.heading{
+  color: purple;
+  /* background-color: lightblue; */
+
+}
+.pic{
+  min-width: 23%;
+  min-height: 18%;
+  max-width: 23%;
+  max-height: 18%;
+  margin-right: 20px;
+  /* max-height: 25%; */
+}
+.text-content{
+  width: 70vw;
+}
+
+/* Singlepage */
+.mypic{
+  min-height: 50%;
+  min-width: 70%;
+  max-height: 50%;
+  max-width: 70%;
+}
+.first{
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1px solid red;
+}
+
+.Richu{
+  height: 60%;
+} 
+.pikachu{
+  /* height: 10%; */
+  display: flex;
+  flex-direction: row;
+  /* align-items: center; */
+  padding: 12px 3px;
+  margin: 5px;
+  /* height: 27vh; */
+  border-bottom: 1px solid red;
+}
+.side-cont{
+  width: 28vw;
+}
+.sstcont{
+  width: 19vw;
+}
+.sideNews{
+  width: 27%;
+  /* padding: 12px 3px; */
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+}
+
+.repic{
+  min-width: 35%;
+  min-height: 95%;
+  max-width: 35%;
+  max-height: 99%;
+  margin-right: 10px;
+}
+
+/* Click Page */
+.ClickPage{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: justify;
+}
+.leadPic{
+  align-items: center;
+  min-width: 70%;
+  min-height: 40%;
+  max-width: 70%;
+  max-height: 40%;
+  border-radius: 2px;
+}
+#LeadT{
+  width: 50%;
+  font-size: 1.4rem;
+  /* font-family: 'Gill Sans', Gill Sans MT; */
+}
+#LeadD{
+  width: 50%;
+  font-size: 1.4rem;
+  /* font-family: 'Gill Sans', Gill Sans MT; */
+}
+#LeadC{
+  width: 50%;
+  font-size: 1.4rem;
+  /* font-family: 'Gill Sans', Gill Sans MT; */
+}
+#LeadA{
+  font-size: 1.2rem;
+  align-items: flex-start;
+}
+#LeadP{
+  font-size: 1.2rem;
+  align-items: flex-start;
+  position: relative;
+  right: 235px;
+}
+.giver{
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  right: 250px;
+  gap: 10px;
+  align-items: center;
+
+}
+.Giver{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  /* position: relative; */
+  /* right: 400px; */
+}
+.shareLeft{
+  position: fixed;
+  left: 40px;
+  bottom: 10px;
+}
+
+.takeit{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.boy{
+  height: 80px;
+  width: 80px;
+}
+#BoyLeadP{
+  position: relative;
+  top: 20px;
+  right: 115px;
+}
+.infor{
+  height: 30px;
+  width: 30px;
+}
+.giverInfor{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 32px 6px;
+}
+.BacktoHome{
+  font-size: 1.1rem;
+  position: relative;
+  left: 290px;
+  cursor: pointer;
+}
+/* Down on Click page */
+.ReDown{
+  /* display: flex; */
+  /* flex-direction: column; */
+  /* justify-content: center; */
+  align-items: center;
+  /* padding: 6px 23px; */
+  width: 100%;
+
+}
+.homi{
+  display: flex;
+  width: 95%;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 30px;
+  /* border: 1px solid red; */
+}
+.Boxxer{
+  width: 100%;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.text-wid{
+  width: 93%;
+  color: fuchsia;
+}
+.minImg{
+  min-height: 40%;
+  min-width: 55%;
+  max-height: 40%;
+  max-width: 55%;
+}
+/* Extra Work */
+.AD{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+  height: 55%;
+  width: 65%;
+  /* align-items: self-end; */
+  border: 2px solid black;
+}
+.lodwalapart{
+  height: 100px;
+  width: 100px;
+}
+.loading{
+  color: yellow;
+  animation: load 4s  0.1s infinite forwards;
+  /* transition: all 5s ease-in ; */
+}
+@keyframes load {
+  from{
+    transform: rotate(360deg);
+  }
+  to{
+    transform: rotate(0deg);
+  }
+}
+
+.myad{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+
+}
+
