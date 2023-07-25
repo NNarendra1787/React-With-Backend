@@ -68,7 +68,7 @@ function Home() {
                     return (
                       <aside id="TopRight" key={ind}>
                         <img
-                          className="sideTopImg"
+                          className="sideTopImg" id="sideTop1"
                           src={it.urlToImage}
                           alt="load"
                         />
@@ -184,9 +184,11 @@ function Home() {
     );
   } else {
     return (
-      <div className="lodwalpart">
-        <h1 className="loading">Loading...</h1>;
-      </div>
+      <div class="loader">
+      <div class="inner one"></div>
+      <div class="inner two"></div>
+      <div class="inner three"></div>
+    </div>
     );
   }
   

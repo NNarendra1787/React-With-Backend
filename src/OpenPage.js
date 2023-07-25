@@ -81,9 +81,11 @@ function OpenPage() {
     );
   } else {
     return (
-      <div className="lodwalpart">
-        <h1 className="loading">Loading...</h1>;
-      </div>
+      <div class="loader">
+      <div class="inner one"></div>
+      <div class="inner two"></div>
+      <div class="inner three"></div>
+    </div>
     );
   }
 }

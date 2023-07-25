@@ -1,6 +1,10 @@
 @media screen and (max-width: 750px) {
-    /* body {
+    body {
         background-color: pink;
+    }
+
+    /* .mainPart{
+        width: 100vw;
     } */
 
     .TopTitle {
@@ -56,7 +60,7 @@
 
     .Main {
         height: 100vh;
-        width: 100vw;
+        width: 96vw;
         /* display: flex;
         flex-direction: column;
         align-items: center; */
@@ -66,7 +70,7 @@
 
     #SweetHome {
         height: 100vh;
-        width: 98vw;
+        width: 88vw;
     }
 
     .NewsPage {
@@ -207,7 +211,7 @@
     .letfull {
         position: relative;
         bottom: 43%;
-        width: 124%;
+        width: 174%;
     }
 
     .topRight {
@@ -259,7 +263,7 @@
     /* Latest Wala Page */
     .UpSide {
         position: relative;
-        top: 135px;
+        bottom: 135px;
     }
 
     .gasli {
@@ -295,7 +299,7 @@
         flex-direction: column;
         padding: 12px 20px;
         position: relative;
-        top: 110px;
+        bottom: 60px;
     }
 
     .mainFirst {
@@ -317,7 +321,7 @@
     /*Latest Storis  */
     .DownSide {
         position: relative;
-        top: 1263px;
+        top: 1226px;
     }
 }
 
@@ -341,7 +345,7 @@
         width: 105%;
     }
     .llp{
-        width: 77vw;
+        width: 57vw;
     }
 }
 
