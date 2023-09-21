@@ -227,8 +227,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 30%;
-    width: 65%;
+    height: 30vh;
+    width: 23vw;
 }
 .myad{
     display: flex;

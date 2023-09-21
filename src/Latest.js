@@ -23,7 +23,7 @@ function Latest(props) {
   // const {data} = props.props
   // if (loaded) {
   return (
-    <div>
+    <div className="LatArticle">
       <div>
         <h1>Latest Articles</h1>
         <hr className="myhr" />
@@ -46,7 +46,7 @@ function Latest(props) {
           })}
         {data
           .filter((ell) => {
-            return ell.cat === "Bollywood" && ell.id === 69;
+            return ell.cat === "Bollywood" && ell.id === 95;
           })
           .map((it, ind) => {
             return (

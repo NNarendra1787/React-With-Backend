@@ -21,13 +21,9 @@ function OpenPage() {
 
   const [count, setCount] = useState(7);
 
-  const date = new Date();
-  const dateString = "2022-05-31";
-
- function clikig(){
-
- }
-
+  // const date = new Date();
+  // const dateString = "2022-05-31";
+  
   useEffect(() => {
 
     axios.get("https://react-backend-data.onrender.com/api/category/categries2").then(res=> setData(res.data), setLoaded(true))

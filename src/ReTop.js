@@ -55,7 +55,7 @@ function ReTop(props) {
                   <Link to={`/ClickPage/${it.title}`} state={it}>
                     <h5 className="heading">{it.title} </h5>
                   </Link>
-                  <p>{it.content}</p>
+                  <p className="HoDec">{it.content}</p>
                   <br />
                 </div>
                 <hr />
@@ -75,7 +75,7 @@ function ReTop(props) {
                   <Link to={`/ClickPage/${it.title}`} state={it}>
                     <h5 className="heading">{it.title} </h5>
                   </Link>
-                  <p>{it.content}</p>
+                  <p className="HoDec">{it.content}</p>
                   <br />
                 </div>
                 <hr />
@@ -95,7 +95,7 @@ function ReTop(props) {
                   <Link to={`/ClickPage/${it.title}`} state={it}>
                     <h5 className="heading">{it.title} </h5>
                   </Link>
-                  <p>{it.content}</p>
+                  <p className="HoDec">{it.content}</p>
                   <br />
                 </div>
                 <hr />

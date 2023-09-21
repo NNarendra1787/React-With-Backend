@@ -14,9 +14,9 @@ function SinglePage() {
   const [count, setCount] = useState(4);
   const [cot, setCot] = useState(1);
 
-  const date = new Date();
-  const dateString =
-    date.getFullYear() + "-" + date.getMonth() + "-" + date.getDate();
+  // const date = new Date();
+  // const dateString =
+  //   date.getFullYear() + "-" + date.getMonth() + "-" + date.getDate();
 
   useEffect(() => {
 
@@ -27,8 +27,8 @@ function SinglePage() {
   if (loaded) {
     return (
       <div className="sideNews">
-        <div className="Richu">
-          <h1>Top Post</h1>
+        <section className="Richu">
+          <h1 id="Top-Post">Top Post</h1>
           {data.filter((e)=>{return e.cat === para}).map((sd, index) => {
             // console.log(count, index);
             if (index < cot) {
@@ -68,16 +68,8 @@ function SinglePage() {
           })}
           <div className="AD">
           <h1 className="myad">Advertisement</h1>
-          
           </div>
-        </div>
-        {/* <button
-          onClick={() => {
-            setCount(count + 1);
-          }}
-        >
-          Lode More
-        </button> */}
+        </section>
       </div>
     );
   } else {

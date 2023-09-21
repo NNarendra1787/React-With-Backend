@@ -1,7 +1,21 @@
-@media screen and (max-width: 750px) {
-    body {
-        background-color: pink;
+@media screen and (min-width: 750px)and (max-width: 1530px){
+    .repic{
+        min-height: 25vh;
+        max-height: 30vh;
     }
+    .pikachu{
+        box-sizing: border-box;
+        height: 37vh;
+    }
+    .HoDec{
+        width: 21vw;
+    }
+    .DownSide{
+        position: relative;
+        top: 277px;
+    }
+}
+@media screen and (max-width: 750px) {
 
     /* .mainPart{
         width: 100vw;
@@ -10,6 +24,10 @@
     .TopTitle {
         position: relative;
         right: 150px;
+    }
+
+    .ADD{
+        width: 80vw;
     }
 
     .paddingSmall {
@@ -155,6 +173,9 @@
         position: relative;
         right: 12%;
     }
+    .giverInfor {
+        width: 80vw;
+    }
 
     .homi {
         display: flex;
@@ -169,7 +190,7 @@
     }
 
     .ReDown {
-        width: 100%;
+        width: 80vw;
     }
 
     .text-wid {
@@ -177,11 +198,14 @@
     }
 
     .lp {
-        width: 97%;
+        width: 60vw;
     }
 
     .llp {
-        width: 70vw;
+        width: 65vw;
+    }
+    .LatArticle{
+        width: 95vw;
     }
 
     /* Home Page */
@@ -315,17 +339,18 @@
     }
 
     .rightSide {
-        width: 100%;
+        width: 95vw;;
     }
 
     /*Latest Storis  */
     .DownSide {
         position: relative;
         top: 1226px;
+        width: 90vw;
     }
 
     .ClickPage{
-        width: 84%;
+        width: 100vw;
     }
 }
 
