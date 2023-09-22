@@ -27,6 +27,7 @@ function OpenPage() {
   useEffect(() => {
 
     axios.get("https://react-backend-data.onrender.com/api/category/categries2").then(res=> setData(res.data), setLoaded(true))
+    // axios.get("http://localhost:500/api/category/categries2").then(res=> setData(res.data), setLoaded(true))
     
     
   }, [params]);

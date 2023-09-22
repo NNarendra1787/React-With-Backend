@@ -1,25 +1,30 @@
-@media screen and (min-width: 750px)and (max-width: 1530px){
-    .repic{
+@media screen and (min-width: 750px)and (max-width: 1530px) {
+    .repic {
         min-height: 25vh;
         max-height: 30vh;
     }
-    .pikachu{
+
+    .pikachu {
         box-sizing: border-box;
         height: 37vh;
     }
-    .HoDec{
+
+    .HoDec {
         width: 21vw;
     }
-    .DownSide{
+
+    .DownSide {
         position: relative;
         top: 277px;
     }
-    #SweetHome{
+
+    #SweetHome {
         width: 95vw;
         height: 100vh;
     }
-    
+
 }
+
 @media screen and (max-width: 750px) {
 
     /* .mainPart{
@@ -31,7 +36,8 @@
         right: 150px;
     }
 
-    .ADD{
+    .ADD {
+        height: 35vh;
         width: 80vw;
     }
 
@@ -178,6 +184,7 @@
         position: relative;
         right: 12%;
     }
+
     .giverInfor {
         width: 80vw;
     }
@@ -209,7 +216,8 @@
     .llp {
         width: 65vw;
     }
-    .LatArticle{
+
+    .LatArticle {
         width: 95vw;
     }
 
@@ -328,7 +336,7 @@
         flex-direction: column;
         padding: 12px 20px;
         position: relative;
-        bottom: 60px;
+        bottom: 130px;
     }
 
     .mainFirst {
@@ -344,7 +352,8 @@
     }
 
     .rightSide {
-        width: 95vw;;
+        width: 95vw;
+        ;
     }
 
     /*Latest Storis  */
@@ -354,46 +363,70 @@
         width: 90vw;
     }
 
-    .ClickPage{
+    .ClickPage {
         width: 100vw;
+    }
+
+    .mypic {
+        min-height: 50%;
+        min-width: 60vw;
+        max-height: 50%;
+        max-width: 90vw;
     }
 }
 
 /*  */
 
 @media screen and (min-width: 350px) and (max-width: 460px) {
-   
+
 
     .TopTitle {
-        
+
         position: relative;
         right: 120px;
     }
-    .barIcon{
+
+    .barIcon {
         right: 30px;
     }
-    .mainFirst{
+
+    .mainFirst {
         height: 15%;
     }
-    .lp{
+
+    .lp {
         width: 105%;
     }
-    .llp{
+
+    .llp {
         width: 57vw;
+    }
+
+    .mypic {
+        min-height: 50%;
+        min-width: 60vw;
+        max-height: 50%;
+        max-width: 95vw;
+    }
+    .ADD{
+        height: 14vh;
+        width: 90vw;
     }
 }
 
 @media screen and (orientation: landscape) {
-    
-    .mainFirst{
+
+    .mainFirst {
         height: 15%;
     }
-    .sistum{
+
+    .sistum {
         width: 80vw;
     }
+
     /* .lp{
         width: 70vw;
     } */
-   
-    
+
+
 }

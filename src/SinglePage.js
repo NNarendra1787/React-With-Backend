@@ -21,6 +21,7 @@ function SinglePage() {
   useEffect(() => {
 
     axios.get("https://react-backend-data.onrender.com/api/category/top").then((res)=> setData(res.data), setLoaded(true))
+    // axios.get("http://localhost:500/api/category/top").then((res)=> setData(res.data), setLoaded(true))
 
   }, [params]);
 
@@ -61,7 +62,7 @@ function SinglePage() {
                     <p className="sstcont">{sd.content}</p>
                     <br />
                   </div>
-                  <hr />
+                  {/* <hr /> */}
                 </div>
               );
             }

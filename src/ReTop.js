@@ -58,7 +58,7 @@ function ReTop(props) {
                   <p className="HoDec">{it.content}</p>
                   <br />
                 </div>
-                <hr />
+                {/* <hr /> */}
               </div>
             );
           })}
@@ -78,7 +78,7 @@ function ReTop(props) {
                   <p className="HoDec">{it.content}</p>
                   <br />
                 </div>
-                <hr />
+                {/* <hr /> */}
               </div>
             );
           })}
@@ -98,7 +98,7 @@ function ReTop(props) {
                   <p className="HoDec">{it.content}</p>
                   <br />
                 </div>
-                <hr />
+                {/* <hr /> */}
               </div>
             );
           })}

@@ -162,10 +162,20 @@ header li {
 
 /* Singlepage */
 .mypic {
-  min-height: 50%;
+  /* min-height: 50%;
   min-width: 70%;
   max-height: 50%;
-  max-width: 70%;
+  max-width: 70%; */
+
+  min-height: 20vh;
+  min-width: 24vw;
+  max-height: 30vh;
+  max-width: 35vw;
+  /* min-height: 50%;
+  min-width: 60vw;
+  max-height: 50%;
+  max-width: 95vw; */
+
 }
 
 .first {
