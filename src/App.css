@@ -80,7 +80,10 @@ body {
 }
 
 #NavHr {
-  width: 99%;
+  /* position: absolute; */
+  width: 97vw;
+  /* top: 89px; */
+  /* z-index: 3; */
 }
 
 #myLinks {

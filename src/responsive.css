@@ -1,4 +1,7 @@
 @media screen and (min-width: 750px)and (max-width: 1530px) {
+    body{
+        overflow-x: hidden;
+    }
     .repic {
         min-height: 25vh;
         max-height: 30vh;
@@ -22,6 +25,7 @@
         width: 95vw;
         height: 100vh;
     }
+  
 
 
 }
@@ -32,7 +36,13 @@
     }
     .midpart{
         width: 90vw;
-        justify-content: space-between;
+        /* justify-content: space-between; */
+    }
+    #NavHr{
+        position: absolute;
+        top: 89px;
+        width: 99vw;
+        z-index: 3;
     }
     /* .LatArticle{
         width: 45vw;
@@ -43,6 +53,9 @@
 }
 
 @media screen and (max-width: 750px) {
+    body{
+        overflow-x: hidden;
+    }
 
     /* .mainPart{
         width: 100vw;
@@ -60,7 +73,15 @@
 
     .paddingSmall {
         position: relative;
-        top: 10px;
+        background-color: lightpink;
+        top: 130px;
+    }
+
+    #NavHr{
+        position: absolute;
+        top: 89px;
+        width: 99vw;
+        z-index: 3;
     }
 
     .navbar {
@@ -82,7 +103,7 @@
     .barIcon {
         display: block;
         position: absolute;
-        bottom: 65px;
+        bottom: 170px;
         right: 100px;
     }
 
@@ -148,7 +169,7 @@
     }
 
     .sstcont {
-        width: 80%;
+        width: 60vw;
     }
 
     .repic {
@@ -162,7 +183,8 @@
     .pikachu {
         box-sizing: border-box;
         height: 37vh;
-        width: 96%;
+        width: 97vw;
+        padding: 3px;
     }
 
     .St-cont {
@@ -353,7 +375,7 @@
     .midpart {
         display: flex;
         flex-direction: column;
-        padding: 12px 20px;
+        /* padding: 12px; */
         position: relative;
         bottom: 130px;
     }
@@ -378,12 +400,12 @@
     /*Latest Storis  */
     .DownSide {
         position: relative;
-        top: 1086px;
+        top: 1056px;
         width: 90vw;
     }
 
     .ClickPage {
-        width: 100vw;
+        width: 88vw;
     }
 
     .mypic {
@@ -397,6 +419,9 @@
 /*  */
 
 @media screen and (min-width: 350px) and (max-width: 460px) {
+    body{
+        overflow-x: hidden;
+    }
 
 
     .TopTitle {
@@ -407,6 +432,7 @@
 
     .barIcon {
         right: 30px;
+        bottom: 178px;
     }
 
     .mainFirst {
