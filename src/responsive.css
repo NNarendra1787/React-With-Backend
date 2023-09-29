@@ -27,6 +27,10 @@
         height: 100vh;
     }
 
+    #LeadA{
+        position: absolute;
+        left: 103px;    
+    }
 
 
 }
@@ -48,7 +52,8 @@
         width: 99vw;
         z-index: 3;
     }
-    #bigImg{
+
+    #bigImg {
         position: absolute;
         left: 1vw;
         height: 45vh;
@@ -61,6 +66,19 @@
     /* .rightSide{
         width: 40vw;
     } */
+    /* #LeadA{
+        position: absolute;
+        left: 103px;    
+    } */
+    #leadP{
+        position: relative;
+        right: 75px;
+    }
+    #BoyLeadP {
+        position: relative;
+        top: 26px;
+        right: 141px;
+    }
     .pic {
         /* margin-right: 20px; */
         max-height: 32vh;
@@ -75,35 +93,43 @@
         min-width: 19vw;
         max-width: 20vw;
     }
-    .AD{
+
+    .AD {
         width: 42vw;
         height: 95vh;
     }
-    .St-cont{
+
+    .St-cont {
         width: 40vw;
     }
-    .pikachu{
+
+    .pikachu {
         box-sizing: border-box;
         width: 40vw;
     }
-    .mypic{
+
+    .mypic {
         min-width: 10vw;
         max-width: 40vw;
     }
-    .mainFirst{
+
+    .mainFirst {
         width: 50vw;
     }
-    .mmypic{
+
+    .mmypic {
         min-width: 20vw;
         max-width: 25vw;
     }
-    .mg{
+
+    .mg {
         min-width: 15vw;
         max-width: 23vw;
         min-height: 20vw;
         max-height: 23vw;
     }
-    .sstcont{
+
+    .sstcont {
         width: 21vw;
     }
 }
@@ -117,11 +143,26 @@
         width: 100vw;
     } */
 
-    .mmypic{
+    #BoyLeadP {
+        position: relative;
+        top: 50px;
+        right: 90px;
+    }
+
+    .minImg {
+        min-width: 75vw;
+        max-width: 85vw;
+        position: relative;
+        right: 33px;
+    }
+
+
+    .mmypic {
         min-width: 15vw;
         max-width: 26vw;
     }
-    .pic{
+
+    .pic {
         min-width: 15vw;
         max-width: 26vw;
         min-height: 10vh;
@@ -319,7 +360,7 @@
     }
 
     .text-wid {
-        width: 65%;
+        width: 65vw;
     }
 
     .lp {

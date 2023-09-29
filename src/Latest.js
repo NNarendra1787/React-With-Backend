@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { Link, useParams } from "react-router-dom";
+import { Link, useNavigate, useParams } from "react-router-dom";
 import "./Home.css";
 import axios from "axios";
 function Latest(props) {
@@ -7,6 +7,7 @@ function Latest(props) {
   // const [loaded1, setLoaded1] = useState(false);
   const params = useParams();
   // console.log(params.category);
+  const navi = useNavigate()
   const [cot, setCot] = useState(4);
 
   useEffect(() => {
@@ -97,10 +98,11 @@ function Latest(props) {
             );
           })}
       </div>
-      <p
+      <p 
         onClick={() => {
-          setCot(cot + 4);
+          navi("/Hollywood")
         }}
+    
         className="lM"
       >
         Load More ⬇️
